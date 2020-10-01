@@ -1,0 +1,14 @@
+<body>
+  <div class="container">
+    <br><br>
+  <h2> Repositories</h2>
+  
+  <div  *ngFor='let repo of repos'>
+    <div  id= "repoDetails" class="card" style="width: 40rem">
+      <p>Name: {{repo.name}} </p>
+      <p>Description: {{repo.description}}</p>
+      <p>Language: {{repo.language}}</p>
+      <p>Url : <a href={{repo.url}}>{{repo.url}}</a></p>
+ 
+</div></div>
+</div></body>
